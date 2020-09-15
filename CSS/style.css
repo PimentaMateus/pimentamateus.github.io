@@ -8,12 +8,15 @@ body {
 }
 
 .nav{
-    background-color: #595959;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     list-style: none;
     text-align: right;
     padding: 20px 0 20px 0;
     margin: 0 auto;
+    width: 100%;
+    height: 30px;
+    position: fixed;
 
 
 }
@@ -21,34 +24,41 @@ body {
 .nav > li{
     display: inline-block;
     padding: 0 25px 0 25px;
+    font-size: 18px;    
+    font-family: 'Pacifico';
+
 }
 
 .nav > li > a{
-    font-family: 'Pacifico';
-    font-size: 18px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .nav > li > a:hover{
-    color: #c1c1c1;
+    color: #a5a4a4;
 }
 
 .logo {
-    font-family: 'Pacifico', cursive;;
-    display: inline-block;
-    height: inherit;
-    left: 50px;
-    line-height: inherit;
-    margin: 10px;
-    padding: 22px 35px;
-    position: absolute;
-    top: 0;
-    color: white;
+    font-family: 'Pacifico', cursive;
+    float: left;
+    color: #000000;
+    padding-left: 25px;
     font-size: 1.75em;
-    text-transform: none;
-    font-weight: normal;
-    padding: 0;
+    font-weight: bold;
+    padding: 0px 55px;
 }
 
+.logo > a{
+    text-decoration: none;
+    color: #000000;
+}
 
+.banner{
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-img{
+    width: 100%;
+    display: block;
+}
