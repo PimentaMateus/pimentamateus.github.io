@@ -1,13 +1,37 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
 
-*{
-    padding: 0px;
-    margin: 0px;
-}
 body {
     margin: 0;
     padding: 0;
     background-color:rgb(255, 255, 255);    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    background-color: #595959;
+    color: #ffffff;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0 20px 0;
+    margin: 0 auto;
+
+
+}
+
+.nav > li{
+    display: inline-block;
+    padding: 0 25px 0 25px;
+}
+
+.nav > li > a{
+    font-family: 'Pacifico';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav > li > a:hover{
+    color: #c1c1c1;
 }
 
 .logo {
@@ -27,47 +51,4 @@ body {
     padding: 0;
 }
 
-.menu{
-    width: 100%;
-    height: 70px;
-    background:#292929;
-    float: left;
-    z-index: 9999;
-    position: fixed;
-}
 
-.center{
-    width: 70%;
-    height: 60px;
-    margin: 0 auto;
-}
-
-.center ul{
-    width: 70%;
-    height: 60px;
-    float: right;
-}
-
-.center ul li{
-    width: 50px;
-    padding:  22px 35px;
-    list-style: none;
-    float: right;
-    text-align: center;
-    color: white;
-    font-family: 'Pacifico';
-    font-size: 18px;
-
-}
-.center ul li :first-child{
-    background-color: purple;
-    color: white !important;
-    border-right: 1px solid #1c1c1c;
-}
-
-.center ul li:hover{
-    background-color: purple;
-    transition: all 0.3s;
-    color: white;
-    cursor: pointer;
-}
