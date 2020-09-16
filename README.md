@@ -4,9 +4,7 @@
 
 - [X] Barra de Navegação
 - [X] Banner na pág principal
-- [ ] Rodapé da pág
-  - [ ] Mapa do site
-  - [ ] Licença
+- [X] Rodapé da pág
 - [X] Background
 - [ ] Adicionar conteúdo nas seções
   - [X] Home
@@ -27,6 +25,5 @@
 - [ ] Colocar margem colorida para separar seções
 - [X] Botão Descer
 - [X] Efeito Scroll Suave
-- [ ] Submenu da aba Currículo
 - [ ] Site responsivo com Bootstrap
 - [ ] Efeitos visuais nos conteúdos
