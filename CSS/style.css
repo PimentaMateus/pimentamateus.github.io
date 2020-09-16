@@ -2,11 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 body {
-    margin: 0;
     padding: 0;
     background-color:rgb(248, 248, 248);    
     font-family: 'Raleway', sans-serif;
     flex-grow: 1;
+    margin-top: 30px;
 
 }
 *{
@@ -25,7 +25,8 @@ body {
     height: 30px;
     position: fixed;
     flex-grow: 1;
-    
+    top: 0;
+    z-index: 30;
 
 }
 
@@ -38,6 +39,7 @@ body {
     font-family: 'Poiret One', cursive;
     text-align: center;
     list-style: none;
+    top: 0;
    
 
 }
@@ -165,7 +167,7 @@ body {
     margin: auto 5% auto auto;
 }
 
-footer{
+footer > p{
     background-color: #000000;
     width: 100%;
     height: 30px;
@@ -173,4 +175,32 @@ footer{
     text-align: center;
 }
 
+footer{
+    background-color: #ececec;
+    width: 100%;
+    height: 10px;
+}
 
+  .linha-vertical{
+    height: auto;/*Altura da linha*/
+    border-right: 15px solid;
+    border-right-color: rgb(255, 242, 127);
+}
+
+.linha-verticaldois{
+    height: auto;/*Altura da linha*/
+    border-right: 15px solid;
+    border-right-color: rgb(127, 140, 255);
+}
+
+.linha-verticaltres{
+    height: auto;/*Altura da linha*/
+    border-right: 15px solid;
+    border-right-color: rgb(200, 255, 127);
+}
+
+.linha-verticalquatro{
+    height: auto;/*Altura da linha*/
+    border-right: 15px solid;
+    border-right-color: rgb(255, 163, 127);
+}
