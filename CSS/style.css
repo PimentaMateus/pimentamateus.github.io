@@ -4,11 +4,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color:rgb(255, 255, 255);    
+    background-color:rgb(248, 248, 248);    
     font-family: 'Raleway', sans-serif;
+    flex-grow: 1;
 
 }
-
+*{
+    scroll-behavior: smooth;
+}
 .nav{
     background-color: #ffffff;
     color: #000000;
@@ -19,8 +22,8 @@ body {
     width: 100%;
     height: 30px;
     position: fixed;
-
-
+    flex-grow: 1;
+    
 
 }
 
@@ -43,6 +46,7 @@ body {
 .nav > li > a:hover{
     color: #a5a4a4;
 }
+
 
 .logo {
     font-family: 'Rajdhani', sans-serif;
@@ -95,12 +99,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    transition: all 0.4s;
+    
 }
 
 .caixa{
-    width: 80%;
+    width: 60%;
     margin: auto;
     background: rgb(248, 248, 248);
+    height: 100vh;
 }
 .caixa > p,
 .caixa > ul {
@@ -139,4 +146,5 @@ body {
     height: auto;
     margin: auto 5% auto auto;
 }
+
 
