@@ -45,8 +45,8 @@ body {
 
 .nav > li > a:hover{
     color: #a5a4a4;
+    transition: all 0.3s;
 }
-
 
 .logo {
     font-family: 'Rajdhani', sans-serif;
@@ -64,7 +64,7 @@ body {
 }
 
 .img-container{
-    height: 625px;
+    height: 650px;
     overflow: hidden;
     background: url(../imagens/mainbanner.jpg) no-repeat center;
     background-size: cover;
@@ -93,7 +93,18 @@ body {
     padding: 6px 14px;
     display: inline-block;
 }
-
+/*Botão*/
+.btn{
+    color: white;
+    padding: 10px 24px;
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(211, 5, 166);
+    transition:  0.3s all;
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
 /*Texto Formatado*/
 .conteudo{
     display: flex;
