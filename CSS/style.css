@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico");
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
 body {
     margin: 0;
     padding: 0;
     background-color:rgb(255, 255, 255);    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .nav{
@@ -19,13 +21,17 @@ body {
     position: fixed;
 
 
+
 }
 
 .nav > li{
+    font-weight: bold;
     display: inline-block;
-    padding: 0 25px 0 25px;
+    padding: 5px 25px 0 25px;
     font-size: 18px;    
-    font-family: 'Pacifico';
+    font-family: 'Poiret One', cursive;
+    
+
 
 }
 
@@ -39,7 +45,7 @@ body {
 }
 
 .logo {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Rajdhani', sans-serif;
     float: left;
     color: #000000;
     padding-left: 25px;
@@ -53,12 +59,84 @@ body {
     color: #000000;
 }
 
-.banner{
-    width: 100%;
-    display: block;
+.img-container{
+    height: 625px;
+    overflow: hidden;
+    background: url(../imagens/mainbanner.jpg) no-repeat center;
+    background-size: cover;
+
 }
 
-.banner > .banner-img{
-    width: 100%;
-    display: block;
+.inner-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
 }
+
+.inner-container h1{
+    font-size: 72px;
+    letter-spacing: 0.2em;
+}
+
+.inner-container h1 span{
+    border: 10px solid white;
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+/*Texto Formatado*/
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.caixa{
+    width: 80%;
+    margin: auto;
+    background: rgb(248, 248, 248);
+}
+.caixa > p,
+.caixa > ul {
+    margin: auto 10% auto 10%;
+    text-align: justify;
+}
+
+.caixa > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.caixa-title {
+    text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+    .caixa {
+        width: 100%;
+        margin: auto;        
+    }
+
+    .caixa > ul {
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
+/*Perfil*/
+
+.profile-pic {
+    border-radius: 50%;
+    width: 300px;
+    height: auto;
+    margin: auto 5% auto auto;
+}
+
