@@ -97,18 +97,7 @@ body {
   display: inline-block;
 }
 
-.inner-container h3{
-  animation: typing 3s ;
-}
 
-@keyframes typing{
-  from{
-    width: 0;
-  }
-  to{
-    width: 18em;
-  }
-}
 /*Botão*/
 .btn {
   color: white;
