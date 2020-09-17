@@ -19,10 +19,10 @@
     - [ ] Idiomas
   - [ ] Portfólio (projetos e códigos)
     - [ ] Carrossel
-  - [ ] Contato
-    - [ ] Links de redes sociais
-    - [ ] Ícones das redes sociais
-- [ ] Colocar margem colorida para separar seções
+  - [X] Contato
+    - [X] Links de redes sociais
+    - [X] Ícones das redes sociais
+- [X] Colocar margem colorida para separar seções
 - [X] Botão Descer
 - [X] Efeito Scroll Suave
 - [ ] Site responsivo com Bootstrap
