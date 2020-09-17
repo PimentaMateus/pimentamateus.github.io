@@ -49,6 +49,7 @@ body {
   transition: all 0.3s;
 }
 
+
 .logo {
   font-family: "Rajdhani", sans-serif;
   float: left;
@@ -67,7 +68,8 @@ body {
 .img-container {
   height: 650px;
   overflow: hidden;
-  background: url(../imagens/mainbanner.jpg) no-repeat center;
+  width: 100%;
+  background-image: linear-gradient(to right, rgb(0, 137, 249),  rgb(126,  0, 249));
   background-size: cover;
 }
 
@@ -86,6 +88,7 @@ body {
 .inner-container h1 {
   font-size: 72px;
   letter-spacing: 0.2em;
+  
 }
 
 .inner-container h1 span {
@@ -93,13 +96,26 @@ body {
   padding: 6px 14px;
   display: inline-block;
 }
+
+.inner-container h3{
+  animation: typing 3s ;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+  to{
+    width: 18em;
+  }
+}
 /*Botão*/
 .btn {
   color: white;
   padding: 10px 24px;
   font-size: 20px;
   text-decoration: none;
-  background: rgb(211, 5, 166);
+  background: rgb(230, 16, 183);
   transition: 0.3s all;
   text-align: center;
   font-family: "Rajdhani", sans-serif;
@@ -123,7 +139,7 @@ body {
   width: 60%;
   margin: auto;
   background: rgb(248, 248, 248);
-  height: auto; /*tamanho da caixa*/
+  height: 60vh; /*tamanho da caixa*/
 }
 .caixa > p,
 .caixa > ul {
@@ -208,6 +224,8 @@ footer {
   border: 1px solid #4b90df;
   margin: 20px 10px;
   float: left;
+  margin-top: 60px;
+  margin-bottom: auto;
 }
 .redes1 > a {
     text-decoration: none;
@@ -231,6 +249,8 @@ footer {
   border: 1px solid #72ddb4;
   margin: 20px 10px;
   float: left;
+  margin-top: 60px;
+  margin-bottom: auto;
 }
 
 .redes2 > a {
@@ -255,6 +275,8 @@ footer {
   border: 1px solid #9f72da;
   margin: 20px 10px;
   float: left;
+  margin-top: 60px;
+  margin-bottom: auto;
 }
 
 .redes3 > a {
@@ -279,4 +301,66 @@ footer {
 
 .image{
     margin: 15px 0 0 0;
+}
+/*-----------------------------*/
+.progress{
+  height: 15px;
+  background-color: rgb(202, 202, 202);
+  position: relative;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.progress .progressIngles{
+ position: absolute;
+ height: 100%;
+ background-color: #cef777;
+ animation: animacao1 3s ;
+}
+
+.progress .progressEspanhol{
+  position: absolute;
+  height: 100%;
+  background-color: #f7d577;
+  animation: animacao2 3s ;
+ }
+
+ .progress .progressFrances{
+  position: absolute;
+  height: 100%;
+  background-color: #f7b177;
+  animation: animacao3 3s ;
+ }
+
+/*Fazer a classe do texto idioma*/ 
+.progresstexto{
+  background-color: transparent;
+  position: relative;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes animacao1{
+  0% { width: 0%; }
+  
+  100% { width: 100%}
+
+}
+
+@keyframes animacao2{
+  0% { width: 0%; }
+  
+  100% { width: 80%}
+  
+}
+
+@keyframes animacao3{
+  0% { width: 0%; }
+  
+  100% { width: 10%}
+  
 }

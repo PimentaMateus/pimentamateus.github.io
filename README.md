@@ -16,7 +16,7 @@
     - [ ] Formação Academica
     - [ ] Cursos e Certificados
     - [ ] Experiência de voluntariado
-    - [ ] Idiomas
+    - [X] Idiomas
   - [ ] Portfólio (projetos e códigos)
     - [ ] Carrossel
   - [X] Contato
