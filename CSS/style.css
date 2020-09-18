@@ -49,7 +49,7 @@ body {
   height: 650px;
   overflow: hidden;
   width: 100%;
-  background-image: linear-gradient(to right, rgb(0, 137, 249),  rgb(126,  0, 249));
+  background-image: linear-gradient(to right, rgb(0, 137, 249),  rgb(154, 71, 236));
   background-size: cover;
 }
 
