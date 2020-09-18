@@ -11,11 +11,11 @@
   - [X] Sobre
   - [ ] Curriculo:
     - [X] Resumo
-    - [ ] Interesses
-    - [ ] Experiência
-    - [ ] Formação Academica
+    - [X] Interesses
+    - [X] Experiência
+    - [X] Formação Academica
     - [ ] Cursos e Certificados
-    - [ ] Experiência de voluntariado
+    - [X] Experiência de voluntariado
     - [X] Idiomas
   - [ ] Portfólio (projetos e códigos)
     - [ ] Carrossel
@@ -27,3 +27,4 @@
 - [X] Efeito Scroll Suave
 - [ ] Site responsivo com Bootstrap
 - [ ] Efeitos visuais nos conteúdos
+- [ ] Centralizar o conteúdo

@@ -60,6 +60,10 @@ body {
   padding: 0px 55px;
 }
 
+.logo img{
+  margin-top: 5px;
+  margin-left: 8px;
+}
 .logo > a {
   text-decoration: none;
   color: #000000;
@@ -97,6 +101,15 @@ body {
   display: inline-block;
 }
 
+.inner-container h3{
+  white-space: nowrap;
+  animation: typing 3s 2s normal;
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /*Botão*/
 .btn {
@@ -120,14 +133,21 @@ body {
 .caixa {
   width: 60%;
   margin: auto;
-  background: rgb(248, 248, 248);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  float: center;
+  background: transparent;
   height: auto; /*tamanho da caixa*/
+  justify-content: center;
+
 }
 
 .cx-contato {
   width: 60%;
   margin: auto;
-  background: rgb(248, 248, 248);
+  background: transparent;
   height: 60vh; /*tamanho da caixa*/
 }
 .caixa > p,
@@ -146,17 +166,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
-  .caixa {
-    width: 100%;
-    margin: auto;
-  }
 
-  .caixa > ul {
-    flex-direction: column;
-    align-content: center;
-  }
-}
 
 /*Perfil*/
 
@@ -211,6 +221,7 @@ footer {
 .redes1 {
   width: 297px;
   border: 1px solid #4b90df;
+  background-color: #ececec;
   margin: 20px 10px;
   float: left;
   margin-top: 60px;
@@ -236,6 +247,8 @@ footer {
 .redes2 {
   width: 297px;
   border: 1px solid #72ddb4;
+  background-color: #ececec;
+
   margin: 20px 10px;
   float: left;
   margin-top: 60px;
@@ -262,6 +275,8 @@ footer {
 .redes3 {
   width: 297px;
   border: 1px solid #9f72da;
+  background-color: #ececec;
+
   margin: 20px 10px;
   float: left;
   margin-top: 60px;
@@ -291,6 +306,96 @@ footer {
 .image{
     margin: 15px 0 0 0;
 }
+
+.image2{
+  margin: 0 15px 0 0;
+  width: 85px;
+  height: 85px;
+}
+/*------Interesses-----------*/
+.caixaCurriculo{
+  width: 79%;
+  background: transparent;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto; 
+  display: block;
+  position: relative;/*tamanho da caixa*/
+  justify-content: center;
+
+}
+
+.caixaInt{
+  width: 125px;
+  height: 145px;
+  background-color: #ececec;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  float: left;
+  justify-content: center;
+  
+  
+}
+
+
+.caixaInt h1{
+  background-color:rgb(114, 188, 248);
+  height: 50px;
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  padding: 0 0 0 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.caixaInt img{
+  display: block;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+/*------Exp----*/ 
+.caixaForm{
+  width: 650px;
+  height: 95px;
+  margin: 20px 10px;
+  background-color: #f1f1f1;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+.caixaForm p{
+  margin-top: 2px;
+}
+
+.caixaForm h1{
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+.caixaForm h2{
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.caixaForm h3{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.caixaForm h4{
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
 /*-----------------------------*/
 .progress{
   height: 15px;
@@ -352,4 +457,14 @@ footer {
   
   100% { width: 10%}
   
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+
+  to{
+    width: 28em;
+  }
 }
