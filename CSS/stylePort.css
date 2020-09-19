@@ -6,7 +6,7 @@
     height: 350px;
     overflow: hidden;
     width: 100%;
-    background-image: linear-gradient(to right, #c3f584,  #ffd271);
+    background-image: linear-gradient(to right, #fbfd8a,  #01a9b4);
     background-size: cover;
   }
   
@@ -22,7 +22,29 @@
     font-weight: 700;
     text-transform: uppercase;
   }
-  
+
+
+  .caixaPort{
+    width: 100%;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    display: block;
+    position: relative;
+    align-items: center;
+    text-align: justify;
+    float: left;
+    padding: 0 0 10px 0;
+    border-bottom: #8d93ab 2px solid;
+  }
+
+  .caixaPort img{
+    max-height: 220;
+    max-width: 500;
+    padding: 0 10px 0 0;
+  }
 
   
   

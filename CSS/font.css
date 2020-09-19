@@ -19,7 +19,7 @@
     color: black;
   }
 
-  .nav > li > a:hover {
+  .nav > li > a:hover,  .nav > li > a .active{
     color: #a5a4a4;
     transition: all 0.3s;
   }
@@ -60,6 +60,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
   
 footer > p {
     background-color: #393e46;
@@ -118,20 +119,30 @@ footer > p {
   }
   
   
-.caixa .caixaCurriculo h4 span{
+.caixa .caixaCurriculo h4 span, .caixa .caixaPort h4 span{
     margin-top: 20px;
     margin-bottom: 30px;
+    padding: 0 0 10px 0;
   }
   
-  .caixaCurriculo p{
+  .caixaCurriculo p, .caixaPort p{
     
   
     margin-left: auto;
     margin-right: auto;
     align-items: center;
   }
+
+.caixaCurriculo ul li{
+  padding: 5px 0 7px 5px;
+}
+  
   
 
+  .inner-container2 h3{
+    animation: typing 5s;
+  }
+  
   .caixaInt h1{
     background-color: #f76b8a;
     height: 50px;

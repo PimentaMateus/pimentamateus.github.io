@@ -24,6 +24,7 @@
 - [X] Botão Descer
 - [X] Efeito Scroll Suave
 - [ ] Site responsivo
+- [ ] Adicionar seção ativa no navbar
 - [ ] Efeitos visuais nos conteúdos
 - [X] Centralizar o conteúdo
 - [ ] Portfólio (projetos e códigos)
