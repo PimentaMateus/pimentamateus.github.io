@@ -27,4 +27,4 @@
 - [ ] Adicionar seção ativa no navbar
 - [ ] Efeitos visuais nos conteúdos
 - [X] Centralizar o conteúdo
-- [ ] Portfólio (projetos e códigos)
+- [X] Portfólio (projetos e códigos)
