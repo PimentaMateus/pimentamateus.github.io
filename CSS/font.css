@@ -19,10 +19,15 @@
     color: black;
   }
 
-  .nav > li > a:hover,  .nav > li > a .active{
+  .nav > li > a:hover{
     color: #a5a4a4;
     transition: all 0.3s;
   }
+
+   .ativa{
+    color: #b31e1e;
+  }
+
 
   .logo > a {
     text-decoration: none;
